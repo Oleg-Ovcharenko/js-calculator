@@ -2,7 +2,7 @@ var calculator = {
     firstNum : 0,                                           // Первое число
     secondNum : 0,                                          // Второе число
     operac: false,                                          // Переключатель операций над числами
-    idOperacBtn: null                                       // id Кнопки в дальнейшем для выполнения операцииы
+    idOperacBtn: null                                       // id Кнопки в дальнейшем для выполнения операции
 };
 
 $('.numBtn').click(function(){
