@@ -1,0 +1,80 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#container{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#container p{
+	font-size: 12px;
+	color: #888888;
+	letter-spacing: .2px;
+	font-weight:lighter;
+	padding-top: 20px;
+}
+
+#container a{
+	color: #888888;
+}
+
+#container a:hover{
+	color: #2e2e2e;
+}
+
+#calc{
+	display: inline-block;
+	padding: 10px;
+	background-color: #F7F7F7;
+	border: 1px solid #F1F1F1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+}
+
+input{
+	margin: 3px;
+	float: left;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+input[type="submit"]{
+	width: 50px;
+	height: 50px;
+	font-size: 15px;
+	color: #888888;
+	border: 1px solid #E0E0E0;
+	background-color: #eeeeee;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	color: #2e2e2e;
+	background-color: #E8E8E8;
+}
+
+input[type="submit"]:focus{
+	background-color: #e0e0e0;
+	outline: none;
+}
+
+input#rez {
+	width: 140px;
+	font-size: 18px;
+	padding: 5px 10px 5px 10px;
+	line-height: 36px;
+	border: 1px solid #CACACA;
+	margin: 3px;
+	text-align: right;
+	background-color: #DEDEDE;
+}
