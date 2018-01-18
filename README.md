@@ -1,4 +1,4 @@
-#Simple calculator in java script
+# Simple calculator in java script
 
 It's just a sketch
 
